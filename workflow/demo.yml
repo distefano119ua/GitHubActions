@@ -1,9 +1,0 @@
-name: DemoGH Actions
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: workflow_dispatch
-jobs:
-  print:
-    runs-on: ubuntu-latest
-    steps:
-      - name: First print
-      - run: echo "🎉 hello world"
