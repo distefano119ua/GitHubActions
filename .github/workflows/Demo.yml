@@ -7,3 +7,6 @@ jobs:
     steps:
       - name: First print
         run: echo "🎉 hello world"
+      - name: List files
+        run: |
+          ls ${{ github.workspace }}
