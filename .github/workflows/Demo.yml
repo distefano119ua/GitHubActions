@@ -10,3 +10,5 @@ jobs:
       - name: List files
         run: |
           ls ${{ github.workspace }}
+      - name: Author
+        run: echo ${{ github.actor }}
